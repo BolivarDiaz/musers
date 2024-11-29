@@ -7,8 +7,8 @@ el llamado de algunos endpoint, el jwt se puede gnerar mediante un login o media
 
 Para poder levantar el proyecto, asegúrate de tener instaladas las siguientes herramientas:
 
-- [Java]([https://nodejs.org/](https://www.openlogic.com/openjdk-downloads?page=1)) (versión 17 o superior)
-- [Maven]([https://www.npmjs.com/](https://maven.apache.org/))
+- [Java]([https://nodejs.org/](https://www.openlogic.com/openjdk-downloads?page=1]) (versión 17 o superior)
+- [Maven]([https://www.npmjs.com/](https://maven.apache.org/])
 
 ## Instalación
 
