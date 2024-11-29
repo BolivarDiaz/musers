@@ -51,7 +51,8 @@ public class ManageUserServiceImpl implements ManageUserService {
                 result.setMessage(message);
                 result.setData(saveUserRs);
             }
-            result.setStatusCode(HttpStatus.OK.value());
+            var statusCode = isUpdate ? HttpStatus.OK : HttpStatus.CREATED;
+            result.setStatusCode(statusCode.value());
         }else {
             result.setStatusCode(HttpStatus.BAD_REQUEST.value());
         }

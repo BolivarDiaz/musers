@@ -2,13 +2,15 @@ package com.nisumpruebatecnica.musers.utils;
 
 import com.nisumpruebatecnica.musers.constants.BasicConstants;
 import io.jsonwebtoken.*;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
 @Component
 public class JwtUtils {
-    private String SECRET_KEY = "586E3272357538782F413F4428472B4B6250655368566B597033733676397924";;  // Asegúrate de mantenerla segura
+    @Value("${secret.jwt.key}")
+    private String SECRET_KEY;
 
     public String createToken(String username) {
         return Jwts.builder()
