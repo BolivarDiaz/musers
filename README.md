@@ -16,3 +16,7 @@ Para poder levantar el proyecto, asegúrate de tener instaladas las siguientes h
 
    ```bash
    git clone https://github.com/usuario/nombre-del-repositorio.git](https://github.com/BolivarDiaz/musers.git
+
+## Diagrama de solución.
+
+<img width="916" alt="image" src="https://github.com/user-attachments/assets/c7dd24d4-fa3b-410e-8842-8f4057ed73d8">
